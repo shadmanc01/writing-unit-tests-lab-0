@@ -72,11 +72,6 @@ const wordLengths = () => {
 
 };
 
-// Question 16
-const processReleaseData = () => {
-
-};
-
 // The below code connects this JS file to our test file
 module.exports = {
   isRealPalindrome,
@@ -94,5 +89,4 @@ module.exports = {
   swapCase,
   staggeredCase,
   wordLengths,
-  processReleaseData,
 };
