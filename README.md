@@ -4,7 +4,7 @@
 
 ### Directions
 1. Run `npm install` to load project dependencies.
-2. See the problems below for a description of what each function is supposed to do. Each problem has 1 to 6 examples which you will write the test cases for! For example, Problem 1 has six examples, so you should write six `assert` statements (one testing each example). Problem 2 has four examples, so you must write four `assert` statements for those examples. 
+2. See the problems below for a description of what each function is supposed to do. Each problem has 2 to 6 examples which you will write the test cases for! For example, Problem 1 has six examples, so you should write six `assert` statements (one testing each example). Problem 2 has four examples, so you must write four `assert` statements for those examples. 
 3. For each problem, first write the unit tests in the `exercises.test.js` file.
 4. Then, run `npm test` to ensure the test case you just wrote FAILS! This is because you have not written the code for the tests yet.
 5. Once you've written the tests for a problem, implement your solution to the problem in `exercises.js` so that it passes all test cases before moving on to the next problem.
@@ -140,49 +140,4 @@ wordLengths('Supercalifragilisticexpialidocious');
 
 wordLengths('');      // []
 wordLengths();        // []
-```
-
-16. Write a Function named `processReleaseData` that processes the following movie release data:
-
-```javascript
-const newReleases = [
-  {
-    'id': 70111470,
-    'title': 'Die Hard',
-    'boxart': 'http://cdn-0.nflximg.com/images/2891/DieHard.jpg',
-    'uri': 'http://api.netflix.com/catalog/titles/movies/70111470',
-    'rating': [4.0],
-    'bookmark': [],
-  },
-  {
-    'id': 654356453,
-    'boxart': 'http://cdn-0.nflximg.com/images/2891/BadBoys.jpg',
-    'uri': 'http://api.netflix.com/catalog/titles/movies/70111470',
-    'rating': [5.0],
-    'bookmark': [{ id:432534, time:65876586 }],
-  },
-  {
-    'title': 'The Chamber',
-    'boxart': 'http://cdn-0.nflximg.com/images/2891/TheChamber.jpg',
-    'uri': 'http://api.netflix.com/catalog/titles/movies/70111470',
-    'rating': [4.0],
-    'bookmark': [],
-  },
-  {
-    'id': 675465,
-    'title': 'Fracture',
-    'boxart': 'http://cdn-0.nflximg.com/images/2891/Fracture.jpg',
-    'uri': 'http://api.netflix.com/catalog/titles/movies/70111470',
-    'rating': [5.0],
-    'bookmark': [{ id:432534, time:65876586 }],
-  },
-];
-```
-The function should return an Array of Objects that contain only the `id` and `title` key/value pairs. You may assume that `id`, when existing, is an integer greater than 0. Here are the rules:
-
-- Keep only releases that have both `id` and `title` data present.
-- Keep only the `id` and `title` data for each release.
-
-```javascript
-processReleaseData(newReleases); // [{ id: 70111470, title: 'Die Hard'}, { id: 675465, title: 'Fracture' }];
 ```
