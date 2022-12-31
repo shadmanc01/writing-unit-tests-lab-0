@@ -4,7 +4,7 @@
 
 ### Directions
 1. Run `npm install` to load project dependencies.
-2. See the problems below for a description of what each function is supposed to do. Each problem has 2 to 6 examples which you will write the test cases for! For example, Problem 1 has six examples, so you should write six `assert` statements (one testing each example). Problem 2 has four examples, so you must write four `assert` statements for those examples. 
+2. See the problems below for a description of what each function is supposed to do. Each problem has 2 to 6 examples which you will write the test cases for! For example, Problem 1 has six examples, so you should write six `expect` statements (one testing each example). Problem 2 has four examples, so you must write four `expect` statements for those examples. 
 3. For each problem, first write the unit tests in the `exercises.test.js` file.
 4. Then, run `npm test` to ensure the test case you just wrote FAILS! This is because you have not written the code for the tests yet.
 5. Once you've written the tests for a problem, implement your solution to the problem in `exercises.js` so that it passes all test cases before moving on to the next problem.
