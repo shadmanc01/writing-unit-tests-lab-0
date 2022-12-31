@@ -140,18 +140,7 @@ wordLengths('');      // []
 wordLengths();        // []
 ```
 
-16. Write a function that takes a word and a string of text as arguments, and returns an integer representing the number of times the word appears in the text. This function should count word matches even if the case does not match. You may assume that the word and text inputs will always be provided. You may assume that a word is any collection of characters separated by whitespace, `,`, `.`, `!`, or `?`.
-
-```javascript
-let text = 'D Smoke is humble. The Inglewood native exudes an aura of maturation, needed for his quick ascension into popular culture as the first winner of Rhythm + Flow, Netflix’s hip-hop reality competition centered on the discovery of hip-hop’s next star. His signature authenticity shone throughout the 10-episode series and international audiences were drawn to his charisma as he proudly rapped about his lived experiences as a young black man in Inglewood.';
-
-searchWord('his', text);      // 4 
-searchWord('hip-hop', text);  // 1 (because "hip-hop's" !== "hip-hop")
-searchWord('flow', text);           // 1
-searchWord('is', text);           // 1
-```
-
-17. Write a Function named `processReleaseData` that processes the following movie release data:
+16. Write a Function named `processReleaseData` that processes the following movie release data:
 
 ```javascript
 const newReleases = [
