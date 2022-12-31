@@ -42,6 +42,40 @@ const sequence = () => {
 
 };
 
+// Question 10
+const isUpperCase = () => {
+
+};
+
+// Question 11
+const removeVowels = () => {
+
+};
+
+// Question 12
+const wordCap = () => {
+
+};
+
+// Question 13
+const swapCase = () => {
+
+};
+
+// Question 14
+const staggeredCase = () => {
+
+};
+
+// Question 15
+const wordLengths = () => {
+
+};
+
+// Question 16
+const processReleaseData = () => {
+
+};
 
 // The below code connects this JS file to our test file
 module.exports = {
@@ -54,4 +88,11 @@ module.exports = {
   showMultiplicativeAverage,
   multiplyList,
   sequence,
+  isUpperCase,
+  removeVowels,
+  wordCap,
+  swapCase,
+  staggeredCase,
+  wordLengths,
+  processReleaseData,
 };
